@@ -1,0 +1,82 @@
+# Variables de entorno
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entorno virtual
+openssa-env/
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# API Keys (importante para seguridad)
+*api_key*
+*secret*
+*token*
+
+# Archivos temporales
+temp/
+tmp/
+*.tmp
+
+# Archivos de ambiente con datos sensibles
+environments/.env.production
+environments/.env.staging
+*.env.local
+
+# Logs generados
+logs/*.log
+logs/**/*.log
+
+# Datos temporales
+data/temp/*
+data/uploads/*
+data/cache/*
+
+# Base de datos de desarrollo
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales de Python
+*.pyc
+__pycache__/
+.pytest_cache/
+environments/.env.development
+environments/.env.development
+environments/.env.development
+environments/.env.development
